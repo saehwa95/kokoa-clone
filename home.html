@@ -8,28 +8,24 @@
                 height: 1000vh;
                 margin: 50x;
             }
-            span {
-              background-color: yellowgreen;
-              padding: 5px;
-              border-radius: 10px;
+            input {
+                border: 1px solid wheat;
             }
-            /* div 바로 밑에 있는 span 태그에만 css 스타일 주는 방법 */
-            div > span {
-              text-decoration: underline;
+            input:required {
+                border: 1px solid tomato;
             }
-            /* p태그 안에 있는 span을 바꾸기 위해서는? */
-            /* p태그는 부모요소 span은 자식요소 */
-            p span {
-              color: white;
+            input[placeholder~="name"] {
+              background-color: pink;
             }
         </style>
     </head>
     <body>
         <div>
-          <span>hello</span>
-          <p>
-            Lorem ipsum dolor sit amet ~~~ <span>inside</span>
-          </p>
+            <form>
+                <input type="text" placeholder="First name"/>
+                <input type="text" placeholder="Last name"/>
+                <input type="password" required="required" placeholder="password"/>
+            </form>
         </div>
     </body>
 </html>
