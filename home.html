@@ -2,24 +2,18 @@
 <html lang="kr">
     <head>
         <title>The Sahwa Times</title>
-        <link href="style.css" rel="stylesheet"/>
-        <style>
-            a {
-                color: wheat;
-                background-color: tomato;
-                text-decoration: none;
-                padding: 3px 5px;
-                border-radius: 5px;
-                font-size: 55px;
-                transition: background-color 10s ease-in-out, color 5s ease-in-out;
-            }
-            a:hover {
-                color: tomato;
-                background-color: wheat;
-            }
-        </style>
     </head>
+    <style>
+        img {
+            border:10px solid black ;
+            border-radius: 50%;
+            transition: transform 5s ease-in-out;
+        }
+        img:hover {
+            transform: rotateZ(90deg);
+        }
+    </style>
     <body>
-        <a href="#">Go Home</a>
+        <img src="./image.jpg"/>
     </body>
 </html>
