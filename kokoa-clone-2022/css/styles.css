@@ -1,0 +1,13 @@
+@import "reset.css";
+@import "variables.css";
+
+/* Components */
+@import "component/status-bar.css";
+
+/* Screens */
+@import "screens/login.css";
+
+body {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
