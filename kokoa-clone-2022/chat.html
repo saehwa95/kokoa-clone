@@ -12,11 +12,9 @@
       <span>No Service</span>
       <i class="fas fa-wifi"></i>
     </div>
-
     <div class="status-bar__column">
       <span>18:43</span>
     </div>
-
     <div class="status-bar__column">
       <span>110%</span>
       <i class="fas fa-battery-full fa-lg"></i>
@@ -24,9 +22,9 @@
     </div>
   </div>
 
-  <headrt class="alt-header">
+  <header class="alt-header">
     <div class="alt-header__column">
-      <a href="more.html">
+      <a href="chats.html">
         <i class="fas fa-angle-left fa-3x"></i>
       </a>
     </div>
@@ -37,7 +35,44 @@
       <span><i class="fas fa-search fa-lg"></i></span>
       <span><i class="fas fa-bars fa-lg"></i></span>
     </div>
-  </headrt>
+  </header>
+  
+  <main class="main-screen main-chat">
+    <div class="chat__timestamp">
+      Tuesday, June 30, 2020
+    </div>
+    <div class="message-row">
+      <img src="https://media-exp1.licdn.com/dms/image/C5603AQH9phekan-TPA/profile-displayphoto-shrink_800_800/0/1516471279976?e=2147483647&v=beta&t=uRbkfV42FATCqv2epklMY6C7EdoccEvLiA5pWPE2osg">
+      <div class="message-row__content">
+        <span class="message__author">Nicolas</span>
+        <div class="message__info">
+          <span class="message__bubble">Hi!</span>
+          <span class="message__time">21:27</span>
+        </div>
+      </div>
+    </div>
+    <div class="message-row message-row--own">
+      <div class="message-row__content">
+        <div class="message__info">
+          <span class="message__bubble">Hi! nice to meet  you!</span>
+          <span class="message__time">21:27</span>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <form class="reply">
+    <div class="reply__column">
+      <i class="far fa-plus-square"></i>
+    </div>
+    <div class="reply__column">
+      <input type="text" placeholder="Write a message...">
+      <i class="far fa-smile"></i>
+      <button>
+        <i class="fas fa-arrow-up"></i>
+      </button>
+    </div>
+  </form>
 
   <script src="https://kit.fontawesome.com/6478f529f2.js"
   crossorigin="anonymous">
